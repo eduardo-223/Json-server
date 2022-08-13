@@ -1,0 +1,48 @@
+{
+  "users": [
+    {
+      "email": "kenzinho@mail.com",
+      "password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
+      "name": "Kenzinho",
+      "age": 38,
+      "id": 1
+    },
+    {
+      "email": "a@a.com",
+      "password": "$2a$10$g88oDRUCYFxOLCrO.NyK0umTY34DXblPSIlDcPAMU.uMJLTHrCKq.",
+      "id": 2
+    },
+    {
+      "email": "ac@a.com",
+      "password": "$2a$10$Cn.XtlvMGqUFRdJTjx345enWK2p6qGIigAB7t30TT0aVFCGH.Kni.",
+      "name": "teste1",
+      "id": 3
+    }
+  ],
+  "books": [
+    {
+      "name": "Cidade dos dragões",
+      "Paginas": 467,
+      "autohr": "autor",
+      "reservation": true,
+      "userId": 2,
+      "id": 1
+    },
+    {
+      "name": "Narnia",
+      "Paginas": 467,
+      "autohr": "autor",
+      "reservation": false,
+      "userId": 2,
+      "id": 2
+    },
+    {
+      "name": "Narni2a",
+      "Paginas": 467,
+      "autohr": "autor",
+      "reservation": true,
+      "userId": 2,
+      "id": 3
+    }
+  ]
+}

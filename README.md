@@ -35,7 +35,7 @@ Possiveis erros
 "Email already exists"
 
 ## Login
-###Caminho POST https://json-server-atv1.herokuapp.com/login
+### Caminho POST https://json-server-atv1.herokuapp.com/login
 
 {
 	"email": "a@a.com",
@@ -67,8 +67,8 @@ verifica livros que o usuário reservou no sistema
 	"books.reservation=true": []
 }
 
-##LIVROS
-##Caminho GET https://json-server-atv1.herokuapp.com/books
+## LIVROS
+## Caminho GET https://json-server-atv1.herokuapp.com/books
 
 Todos os livros
 
@@ -91,9 +91,9 @@ Todos os livros
 	}
 ]
 
-##Criando novo livro
+## Criando novo livro
 
-##Caminho POST https://json-server-atv1.herokuapp.com/books
+## Caminho POST https://json-server-atv1.herokuapp.com/books
 
 userID - é o usuário logado.
 
@@ -118,11 +118,11 @@ id - identificação do livro
 	"id": 3
 }
 
-##livros reservados ou não
+## livros reservados ou não
 
 so mudar o query reservation para false se quiser pesquisar livros nao reservados e true para livros reservados.
 
-##Caminho GET https://json-server-atv1.herokuapp.com/books?reservation=true
+## Caminho GET https://json-server-atv1.herokuapp.com/books?reservation=true
 
 [
 	{
@@ -143,8 +143,8 @@ so mudar o query reservation para false se quiser pesquisar livros nao reservado
 	}
 ]
 
-##Reserva/ retira a reserva
-##Caminho PATCH https://json-server-atv1.herokuapp.com/books/3
+## Reserva/ retira a reserva
+## Caminho PATCH https://json-server-atv1.herokuapp.com/books/3
 
 /books/bookId 
 informe seu userId na requisição
